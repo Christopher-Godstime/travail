@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9bd0ee97.css",
+    "main.js": "/static/js/main.d56ecdec.js",
+    "static/media/video.webm": "/static/media/video.070e019e3eee3f213af0.webm",
+    "static/media/otnickawhereareyou128kringtone-58414.mp3": "/static/media/otnickawhereareyou128kringtone-58414.9fe906f02ea1039e40e4.mp3",
+    "static/media/review.jpg": "/static/media/review.7d2703e99047c9709467.jpg",
+    "static/media/background.png": "/static/media/background.90900a901f5a032744b4.png",
+    "static/media/client_src_audio_got-it-done-613.mp3": "/static/media/client_src_audio_got-it-done-613.89a311f04f29deab239c.mp3",
+    "static/media/loading.gif": "/static/media/loading.1952935ed80fba5926fe.gif",
+    "static/media/whole.avif": "/static/media/whole.137c47baee6774ec23c0.avif",
+    "index.html": "/index.html",
+    "static/media/send.svg": "/static/media/send.fab9d9661d8d41abd207906755d8209e.svg",
+    "main.9bd0ee97.css.map": "/static/css/main.9bd0ee97.css.map",
+    "main.d56ecdec.js.map": "/static/js/main.d56ecdec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bd0ee97.css",
+    "static/js/main.d56ecdec.js"
+  ]
+}
