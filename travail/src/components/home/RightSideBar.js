@@ -27,11 +27,13 @@ const RightSideBar = () => {
           Suggested service providers
         </h5>
         {!suggestions.loading && (
-          <i
-            className="fas fa-redo text-[15px]"
+          <div
+            className="material-icons text-[22px] font-semibold"
             style={{ cursor: "pointer" }}
             onClick={() => dispatch(getSuggestions(auth.token))}
-          />
+          >
+            replay
+          </div>
         )}
       </div>
 

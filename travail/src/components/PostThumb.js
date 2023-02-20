@@ -15,7 +15,7 @@ function PostThumb({ posts, result }) {
       {posts.map((post) => (
         <Link key={post._id} to={`/login/post/${post._id}`}>
           <div className="post_thumb_display">
-            {post.images[0].url.match(/video/i) ? (
+            {post.images[0].url?.match(/video/i) ? (
               <video
                 controls
                 src={post.images[0].url}
@@ -26,8 +26,8 @@ function PostThumb({ posts, result }) {
             )}
 
             <div className="post_thumb_menu">
-              <i className="far fa-heart">{post.likes.length}</i>
-              <i className="far fa-comment">{post.comments.length}</i>
+              <i className="">{post.likes.length}likes</i>
+              <i className="">{post.comments.length}comments</i>
             </div>
           </div>
         </Link>
